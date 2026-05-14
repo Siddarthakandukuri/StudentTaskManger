@@ -1,0 +1,36 @@
+:root {
+  --page-bg: #f5f7fb;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: #ffffff;
+  --surface-muted: #eef2f7;
+  --surface-glass: rgba(255, 255, 255, 0.62);
+  --text-primary: #111827;
+  --text-secondary: #5b6475;
+  --text-muted: #8a94a6;
+  --border: rgba(148, 163, 184, 0.28);
+  --border-strong: rgba(99, 102, 241, 0.22);
+  --brand: #335cff;
+  --brand-strong: #2448d8;
+  --brand-soft: rgba(51, 92, 255, 0.1);
+  --success: #0f9f6e;
+  --success-soft: rgba(15, 159, 110, 0.12);
+  --warning: #c47a0b;
+  --warning-soft: rgba(196, 122, 11, 0.13);
+  --danger: #dc2626;
+  --danger-soft: rgba(220, 38, 38, 0.1);
+  --info: #0e7490;
+  --info-soft: rgba(14, 116, 144, 0.12);
+  --shadow-soft: 0 18px 55px rgba(15, 23, 42, 0.09);
+  --shadow-card: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 22px 50px rgba(15, 23, 42, 0.14);
+  --ambient-one: rgba(51, 92, 255, 0.14);
+  --ambient-two: rgba(14, 165, 233, 0.1);
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --sidebar-width: 272px;
+  --navbar-height: 76px;
+  --transition-fast: 160ms ease;
+  --transition: 240ms ease;
+  --transition-slow: 360ms ease;
+}

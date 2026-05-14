@@ -1,0 +1,96 @@
+.dashboard-hero {
+  margin-bottom: 24px;
+}
+
+.task-banner {
+  width: 100%;
+  padding: 42px 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+  text-align: center;
+}
+
+.task-banner h1 {
+  color: var(--text-primary);
+  font-size: clamp(2.3rem, 6vw, 4.8rem);
+  line-height: 1.05;
+}
+
+.task-banner p {
+  max-width: 760px;
+  margin: 16px auto 0;
+  color: var(--text-secondary);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.workspace-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+}
+
+.task-board {
+  min-width: 0;
+}
+
+.focus-panel {
+  align-self: start;
+  padding: 20px;
+  text-align: center;
+}
+
+.focus-panel h2 {
+  margin-bottom: 16px;
+  color: var(--text-primary);
+  font-size: 1.3rem;
+}
+
+.focus-list {
+  display: grid;
+  gap: 10px;
+}
+
+.focus-list button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 0 12px;
+  border-radius: 14px;
+  color: var(--text-secondary);
+  background: var(--surface-muted);
+  cursor: pointer;
+  text-align: center;
+  transition:
+    transform var(--transition-fast),
+    color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.focus-list button:hover {
+  transform: translateY(-2px);
+  color: var(--text-primary);
+  background: var(--brand-soft);
+}
+
+.focus-list span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.quiet-copy {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 1180px) {
+  .workspace-grid {
+    grid-template-columns: 1fr;
+  }
+}

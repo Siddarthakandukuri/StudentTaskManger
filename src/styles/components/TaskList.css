@@ -1,0 +1,15 @@
+.task-list-section {
+  min-height: 320px;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 1180px) {
+  .task-list {
+    grid-template-columns: 1fr;
+  }
+}

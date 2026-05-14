@@ -1,0 +1,29 @@
+.floating-action-button {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 28;
+  display: none;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand), #14b8a6);
+  box-shadow: 0 18px 36px rgba(51, 92, 255, 0.28);
+  cursor: pointer;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.floating-action-button:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 22px 46px rgba(51, 92, 255, 0.34);
+}
+
+@media (max-width: 760px) {
+  .floating-action-button {
+    display: grid;
+  }
+}
