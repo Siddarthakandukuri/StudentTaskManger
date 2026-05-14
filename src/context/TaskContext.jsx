@@ -46,7 +46,7 @@ function normalizeTask(task) {
 }
 
 export function TaskProvider({ children }) {
-  const [tasks, setTasks] = useLocalStorage("tasks", starterTasks);
+  const [tasks, setTasks] = useLocalStorage("tasks", []);
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
   const [toast, setToast] = useState(null);
